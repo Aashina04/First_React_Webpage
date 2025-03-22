@@ -8,6 +8,8 @@ import StateUpdate from "./concepts/events/StateUpdate";
 import ToggleState from "./concepts/events/ToggleState";
 import FuncState from "./concepts/events/FuncState";
 import FuncInput from "./concepts/events/FuncInput";
+import ApiClass from "./concepts/ApiClass";
+import FuncApi from "./concepts/FuncApi";
 
 //import file from folder
 function App() {
@@ -33,6 +35,8 @@ function App() {
     <ToggleState/>
     <FuncState/>
     <FuncInput/>
+    <ApiClass/>
+    <FuncApi/>
   </>
   );
 }
